@@ -8,9 +8,24 @@
          </lord-icon>
       </a>
    </li>
+   {{#if onIndex}}
    <p class="mx-auto home-text">Bosh sahifa</p>
-
-
+   {{/if}}
+   {{#if quizOn}}
+   <p class="mx-auto home-text">Testlar</p>
+   {{/if}}
+   {{#if resultOn}}
+   <p class="mx-auto home-text">Mening natijalarim</p>
+   {{/if}}
+   {{#if ballsOn}}
+   <p class="mx-auto home-text">O'tish ballari</p>
+   {{/if}}
+   {{#if settingOn}}
+   <p class="mx-auto home-text">Sozlamalar</p>
+   {{/if}}
+   {{#if blogOn}}
+   <p class="mx-auto home-text">Blog & Yangiliklar</p>
+   {{/if}}
    <a href="/login"> <button class="glow-on-hover mx-3" type="button">Kirish</button></a>
 </div>
 <script>

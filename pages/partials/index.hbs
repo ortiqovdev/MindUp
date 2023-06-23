@@ -1,4 +1,4 @@
-<div class="pt-24 pl-20 bg-slate-100 -mb-5">
+<div class="pt-24 pl-20 index-bg -mb-5">
    <div class="flex justify-evenly m-3">
 
       <div class="w-3/12 bg-slate-300 h-40 shadow-lg shadow-blue-500 rounded-md flex index-box">
@@ -12,31 +12,33 @@
       </div>
       <div
          class="w-3/12 bg-slate-300 h-40 shadow-lg shadow-fuchsia-300 rounded-md flex index-box1 items-center justify-around">
-         <div>
-            <p class="text-white text-xl">Bizni ijtimoy <br> tarmoqlar:</p>
+         <div class="p-3">
+            <p class="text-white text-xl">O'yin o'ynab zaxnigizni charxlang!</p>
             <div class="flex mt-3">
-               <a href="https://t.me/MindUpUz"><i class="bi bi-telegram text-blue-400 text-5xl mx-5 "></i></a>
-               <a href="#"><img src="/icons/insta.png" class="w-12"></a>
+               <a href="#"> <button class="button-57 rounded-md" role="button"><span class="text">Sinab
+                        ko'rish</span><span>Qaytish
+                        esdan chiqmasin!</span></button></a>
+
             </div>
          </div>
-         <lord-icon src="https://cdn.lordicon.com/qgonxrut.json" trigger="loop" delay="500"
+         <lord-icon src="https://cdn.lordicon.com/grhtvlif.json" trigger="loop" delay="500"
             colors="primary:#4be1ec,secondary:#cb5eee" style="width:150px;height:150px">
          </lord-icon>
       </div>
-      <div class="w-3/12 bg-slate-300 h-40 shadow-lg shadow-yellow-200 rounded-md flex index-box2">
+      <div class="w-3/12 bg-slate-300 h-40 shadow-lg shadow-yellow-200 rounded-md flex index-box2 p-1">
 
          <lord-icon src="https://cdn.lordicon.com/gbtkzxxm.json" trigger="loop" delay="500" colors="primary:#ffc738"
             style="width:150px;height:150px">
          </lord-icon>
-         <div class="mt-4 flex flex-col">
-            <p class="text-white text-xl">Premium versiyaga obuna bo'ling!</p>
-            <a href="#" class=" btn1  mx-auto mt-5">Obuna bo'lish</a>
+         <div class=" flex flex-col">
+         <button onclick="showModal()"> <i class="bi bi-info-circle-fill text-white ml-52"></i></button>
+            <p class="text-white text-xl ml-5">Premium versiyaga <br> obuna bo'ling!</p>
+            <a href="#" class=" btn1 ml-20 mr-6 mt-5 ">Obuna bo'lish</a>
          </div>
-         <button onclick="showModal()"> <i class="bi bi-info-circle-fill text-white m-2 pb-20"></i></button>
-
-         <div id="myModal1" class="modal1">
-            <div class="modal-content1">
-               <span onclick="hideModal()" class="close1">&times;</span>
+      </div>
+         <div id="myModal" class="modal">
+            <div class="modal-content">
+               <span onclick="hideModal()" class="close">&times;</span>
                <div class="flex items-center">
                   <lord-icon src="https://cdn.lordicon.com/whttoese.json" trigger="loop" delay="500"
                      colors="primary:#4be1ec,secondary:#cb5eee" style="width:50px;height:50px">
@@ -56,8 +58,6 @@
                </div>
             </div>
          </div>
-
-      </div>
    </div>
 
    <p class="ml-24 font-semibold text-lg mt-10">Eng yaxshi natija ko'rsatganlar:</p>
@@ -66,7 +66,7 @@
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
-               <p class="font-semibold "> Akaml Ortiqov</p>
+               <p class="font-semibold "> Akmal Ortiqov</p>
                <p class="text-gray-700">Xoramz 4-son</p>
             </div>
             <div class="bg-white ml-14 rounded-lg  shadow-slate-500 shadow-inner">
@@ -76,7 +76,7 @@
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
-               <p class="font-semibold "> Akaml Ortiqov</p>
+               <p class="font-semibold "> Akmal Ortiqov</p>
                <p class="text-gray-700">Xoramz 4-son</p>
             </div>
             <div class="bg-white ml-14 rounded-lg  shadow-slate-500 shadow-inner">
@@ -86,7 +86,7 @@
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
-               <p class="font-semibold "> Akaml Ortiqov</p>
+               <p class="font-semibold "> Akmal Ortiqov</p>
                <p class="text-gray-700">Xoramz 4-son</p>
             </div>
             <div class="bg-white ml-14 rounded-lg  shadow-slate-500 shadow-inner">
@@ -96,7 +96,7 @@
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
-               <p class="font-semibold "> Akaml Ortiqov</p>
+               <p class="font-semibold "> Akmal Ortiqov</p>
                <p class="text-gray-700">Xoramz 4-son</p>
             </div>
             <div class="bg-white ml-14 rounded-lg  shadow-slate-500 shadow-inner">
@@ -106,7 +106,7 @@
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
-               <p class="font-semibold "> Akaml Ortiqov</p>
+               <p class="font-semibold "> Akmal Ortiqov</p>
                <p class="text-gray-700">Xoramz 4-son</p>
             </div>
             <div class="bg-white ml-14 rounded-lg  shadow-slate-500 shadow-inner">
@@ -116,7 +116,7 @@
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
-               <p class="font-semibold "> Akaml Ortiqov</p>
+               <p class="font-semibold "> Akmal Ortiqov</p>
                <p class="text-gray-700">Xoramz 4-son</p>
             </div>
             <div class="bg-white ml-14 rounded-lg  shadow-slate-500 shadow-inner">
@@ -126,7 +126,7 @@
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
-               <p class="font-semibold "> Akaml Ortiqov</p>
+               <p class="font-semibold "> Akmal Ortiqov</p>
                <p class="text-gray-700">Xoramz 4-son</p>
             </div>
             <div class="bg-white ml-14 rounded-lg  shadow-slate-500 shadow-inner">
@@ -136,7 +136,7 @@
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
-               <p class="font-semibold "> Akaml Ortiqov</p>
+               <p class="font-semibold "> Akmal Ortiqov</p>
                <p class="text-gray-700">Xoramz 4-son</p>
             </div>
             <div class="bg-white ml-14 rounded-lg  shadow-slate-500 shadow-inner">
@@ -146,7 +146,7 @@
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
-               <p class="font-semibold "> Akaml Ortiqov</p>
+               <p class="font-semibold "> Akmal Ortiqov</p>
                <p class="text-gray-700">Xoramz 4-son</p>
             </div>
             <div class="bg-white ml-14 rounded-lg  shadow-slate-500 shadow-inner">
@@ -312,20 +312,23 @@
       <div class="bg-blue-500 otm-w rounded-lg">
          <img src="/imgs/blog.png" class="rounded-lg" alt="">
          <p class="m-1 text-slate-600">23.06.2023</p>
-         <p class="mx-2 mb-2 font-semibold">Magistraturaga kirishda 2 ta sertifikat, "TÖMER" va "AIL" endi oʻtmaydi...</p>
-         <p class="mx-2 mb-4 ">Xullas, sertifikatlar roʻyxati 27 tadan 25 taga qisqardi. Endilikda turk tili sertifikatlar tarkibidan "Aydin TÖMER" va italyan tilidan "Accademia Italiana di Lingua ( AIL )" olib tashlandi. </p>
+         <p class="mx-2 mb-2 font-semibold text-white">Magistraturaga kirishda 2 ta sertifikat, "TÖMER" va "AIL" endi
+            oʻtmaydi...</p>
+         <p class="mx-2 mb-4 text-white">Xullas, sertifikatlar roʻyxati 27 tadan 25 taga qisqardi. Endilikda turk tili
+            sertifikatlar tarkibidan "Aydin TÖMER" va italyan tilidan "Accademia Italiana di Lingua ( AIL )" olib
+            tashlandi. </p>
       </div>
       <div class="bg-blue-500 otm-w rounded-lg">
          <img src="/imgs/blog2.png" class="rounded-lg" alt="">
          <p class="m-1 text-slate-600">23.06.2023</p>
-         <p class="mx-2 mb-2 font-semibold">Coursera O‘zbekistonga 1 200 000 ta bepul akkaunt ajratdi</p>
-         <p class="mx-2 mb-4 ">2023-yildan boshlab 1,2 million nafar o‘zbekistonlik yosh IT sohasining 3 ta yo‘nalishi (frontend, Python, IT-English) bo‘yicha bepul onlayn ta’lim olishi, zamonaviy bilimlarni egallashi hamda Coursera sertifikatiga ega bo‘lishi mumkin. </p>
+         <p class="mx-2 mb-2 font-semibold text-white">Coursera O‘zbekistonga 1 200 000 ta bepul akkaunt ajratdi</p>
+         <p class="mx-2 mb-4 text-white">2023-yildan boshlab 1,2 million nafar o‘zbekistonlik yosh IT sohasining 3 ta
+            yo‘nalishi (frontend, Python, IT-English) bo‘yicha bepul onlayn ta’lim olishi, zamonaviy bilimlarni
+            egallashi hamda Coursera sertifikatiga ega bo‘lishi mumkin. </p>
       </div>
    </div>
 
 </div>
-
-
 
 
 <div id="my-box" class="box">

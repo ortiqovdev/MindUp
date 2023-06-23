@@ -20,10 +20,10 @@
 
     <li class="nav-item">
       <a href="/quiz" class="nav-link">
-        <lord-icon src="https://cdn.lordicon.com/hiqmdfkt.json" trigger="morph"
-          colors="primary:#1663c7,secondary:#66d7ee" style="width:60px;height:60px">
+        <lord-icon src="https://cdn.lordicon.com/hiqmdfkt.json" trigger="morph" 
+          colors="primary:#1663c7,secondary:#66d7ee"  style="width:60px;height:60px">
         </lord-icon>
-        <span class="link-text">Testlar</span>
+        <span class="link-text {{#if quizOn}} text-blue-400{{/if}}" >Testlar</span>
       </a>
     </li>
 
@@ -33,7 +33,7 @@
         <lord-icon src="https://cdn.lordicon.com/hursldrn.json" trigger="morph"
           colors="primary:#1663c7,secondary:#66d7ee" style="width:60px;height:60px">
         </lord-icon>
-        <span class="link-text">O'tish ballari</span>
+        <span class="link-text {{#if ballsOn}} text-blue-400 {{/if}}" >O'tish ballari </span>
       </a>
     </li>
 
@@ -42,7 +42,7 @@
         <lord-icon src="https://cdn.lordicon.com/tbfrtmlu.json" trigger="morph"
           colors="primary:#1663c7,secondary:#66d7ee" style="width:60px;height:60px">
         </lord-icon>
-        <span class="link-text">Natijalarim</span>
+        <span class="link-text {{#if resultOn}} text-blue-400 {{/if}}">Natijalarim</span>
       </a>
     </li>
 
@@ -51,7 +51,7 @@
         <lord-icon src="https://cdn.lordicon.com/ppezgpha.json" trigger="morph"
           colors="primary:#1663c7,secondary:#66d7ee" style="width:60px;height:60px">
         </lord-icon>
-        <span class="link-text">Blog</span>
+        <span class="link-text {{#if blogOn}} text-blue-400 {{/if}}">Blog</span>
       </a>
     </li>
     <li class="nav-item">
@@ -68,7 +68,7 @@
         <lord-icon src="https://cdn.lordicon.com/dfxesbyu.json" trigger="hover"
           colors="primary:#1663c7,secondary:#66d7ee" style="width:60px;height:60px">
         </lord-icon>
-        <span class="link-text">Sozlamalar</span>
+        <span class="link-text {{#if settingOn}} text-blue-400 {{/if}}">Sozlamalar</span>
       </a>
     </li>
   </ul>
