@@ -59,7 +59,8 @@
         <lord-icon  src="https://cdn.lordicon.com/msoeawqm.json" trigger="hover"
           colors="primary:#1663c7 ,secondary:#66d7ee" style="width:60px;height:60px">
         </lord-icon>
-        <span class="link-text">Qidiruv</span>
+        <span class="link-text "onclick="openModal()">Qidiruv</span>
+        
       </a>
     </li>
 
@@ -73,3 +74,27 @@
     </li>
   </ul>
 </nav>
+{{!-- <button onclick="openModal()">Modalni ochish</button> --}}
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+
+      <input type="search" placeholder="Qidiruv..." class="w-full p-2">
+    <br><br>
+
+      <button type="submit" class="bg-blue-500 btn justify-end">Qidirish</button>
+  </div>
+
+</div>
+
+<script>
+      window.onload = function () {
+      var closeButton = document.getElementById('close-button');
+      var myBox = document.getElementById('my-box');
+
+      closeButton.addEventListener('click', function () {
+         myBox.style.display = 'none';
+      });
+   };
+</script>

@@ -42,3 +42,8 @@ export function getBlog(req: Request, res: Response) {
     blogOn :true
   });
 }
+export function getSearch(req: Request, res: Response) {
+  res.render("Home/search", {
+    title: "Mind Up"
+  });
+}

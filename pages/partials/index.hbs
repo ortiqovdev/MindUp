@@ -15,7 +15,7 @@
          <div class="p-3">
             <p class="text-white text-xl">O'yin o'ynab zaxnigizni charxlang!</p>
             <div class="flex mt-3">
-               <a href="#"> <button class="button-57 rounded-md" role="button"><span class="text">Sinab
+               <a href="#"> <button class="button-57 rounded-md z-10" role="button"><span class="text">Sinab
                         ko'rish</span><span>Qaytish
                         esdan chiqmasin!</span></button></a>
 
@@ -31,38 +31,38 @@
             style="width:150px;height:150px">
          </lord-icon>
          <div class=" flex flex-col">
-         <button onclick="showModal()"> <i class="bi bi-info-circle-fill text-white ml-52"></i></button>
+            <button onclick="showModal()"> <i class="bi bi-info-circle-fill text-white ml-52"></i></button>
             <p class="text-white text-xl ml-5">Premium versiyaga <br> obuna bo'ling!</p>
             <a href="#" class=" btn1 ml-20 mr-6 mt-5 ">Obuna bo'lish</a>
          </div>
       </div>
-         <div id="myModal" class="modal">
-            <div class="modal-content">
-               <span onclick="hideModal()" class="close">&times;</span>
-               <div class="flex items-center">
-                  <lord-icon src="https://cdn.lordicon.com/whttoese.json" trigger="loop" delay="500"
-                     colors="primary:#4be1ec,secondary:#cb5eee" style="width:50px;height:50px">
-                  </lord-icon>
-                  <p>Premium versiya obuna bo'ling!</p>
-               </div>
-               <div class="flex items-center"> <lord-icon src="https://cdn.lordicon.com/gowrcrni.json" trigger="loop"
-                     delay="500" colors="primary:#4be1ec,secondary:#cb5eee" style="width:50px;height:50px">
-                  </lord-icon>
-                  <p>Obuna narxi : 000 so'm</p>
-               </div>
-               <div class="flex items-center">
-                  <lord-icon src="https://cdn.lordicon.com/bguzswrc.json" trigger="loop" delay="500"
-                     colors="primary:#4be1ec,secondary:#cb5eee" style="width:50px;height:50px">
-                  </lord-icon>
-                  <a href="#" class="btn1">Obuna bo'lish</a>
-               </div>
+      <div id="myModal" class="modal">
+         <div class="modal-content">
+            <span onclick="hideModal()" class="close">&times;</span>
+            <div class="flex items-center">
+               <lord-icon src="https://cdn.lordicon.com/whttoese.json" trigger="loop" delay="500"
+                  colors="primary:#4be1ec,secondary:#cb5eee" style="width:50px;height:50px">
+               </lord-icon>
+               <p>Premium versiya obuna bo'ling!</p>
+            </div>
+            <div class="flex items-center"> <lord-icon src="https://cdn.lordicon.com/gowrcrni.json" trigger="loop"
+                  delay="500" colors="primary:#4be1ec,secondary:#cb5eee" style="width:50px;height:50px">
+               </lord-icon>
+               <p>Obuna narxi : 000 so'm</p>
+            </div>
+            <div class="flex items-center">
+               <lord-icon src="https://cdn.lordicon.com/bguzswrc.json" trigger="loop" delay="500"
+                  colors="primary:#4be1ec,secondary:#cb5eee" style="width:50px;height:50px">
+               </lord-icon>
+               <a href="#" class="btn1">Obuna bo'lish</a>
             </div>
          </div>
+      </div>
    </div>
 
    <p class="ml-24 font-semibold text-lg mt-10">Eng yaxshi natija ko'rsatganlar:</p>
    <div class="slider my-5">
-      <ul>
+      <ul class="z-10">
          <li class="flex items-center">
             <img src="ims/download (1).jpg" alt="">
             <div class="flex flex-col">
@@ -336,43 +336,3 @@
 
    <button id="close-button" class="btn">Ok</button>
 </div>
-
-<div id="myModal" class="modal">
-
-   <div class="modal-content rounded-md">
-      <span class="close" onclick="closeModal()">&times;</span>
-
-      <input type="search" placeholder="Qidiruv..." class="w-full p-2">
-      <br><br>
-
-      <button type="submit" class="bg-blue-500 btn justify-end">Qidirish</button>
-   </div>
-
-</div>
-<script>
-   window.onload = function () {
-      var closeButton = document.getElementById('close-button');
-      var myBox = document.getElementById('my-box');
-
-      closeButton.addEventListener('click', function () {
-         myBox.style.display = 'none';
-      });
-   };
-
-
-   function openModal() {
-      document.getElementById("myModal").style.display = "block";
-   }
-
-   function closeModal() {
-      document.getElementById("myModal").style.display = "none";
-   }
-   function openModal() {
-      document.getElementById("myModal").style.display = "block";
-   }
-
-   function closeModal() {
-      document.getElementById("myModal").style.display = "none";
-   }
-
-</script>
