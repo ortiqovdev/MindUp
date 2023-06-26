@@ -520,14 +520,11 @@ main {
   display: flex;
   width: max-content;
   animation: runSlider 40s linear infinite;
-  z-index: 1000;
 }
 .slider img{
   height: 50px;
   margin-right: 10px;
   border-radius: 50%;
-  z-index: 1000;
-
 }
 .slider li{
   border-radius: 10px;
@@ -539,13 +536,9 @@ main {
   padding: 10px 0 10px 10px;
   margin-right: 5px;
   margin-left: 10px;
-  z-index: 1000;
-
 }
 .slider{
   overflow: hidden;
-  z-index: 1000;
-
 }
 @keyframes runSlider{
   from{
@@ -575,13 +568,12 @@ main {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  z-index: 10000;
 }
 
 .button-57 span:first-child {
   position: relative;
   transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
-  z-index: 10000;
+  z-index: 10;
 }
 
 .button-57 span:last-child {
@@ -597,7 +589,6 @@ main {
   transform: translateY(225%) translateX(-50%);
   height: 14px;
   line-height: 13px;
-  z-index: 10000;
 }
 
 .button-57:after {
@@ -611,13 +602,12 @@ main {
   transform-origin: bottom center;
   transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
   transform: skewY(9.3deg) scaleY(0);
-  z-index: 10000;
+  z-index: 50;
 }
 
 .button-57:hover:after {
   transform-origin: bottom center;
   transform: skewY(9.3deg) scaleY(2);
-  z-index: 10000;
 }
 
 .button-57:hover span:last-child {
